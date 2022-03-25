@@ -1,19 +1,18 @@
 let yml = `
 ---
 ver=0.0.1
-  Test: #name of the category
+  playcanvas: #name of the category
     color: ff0000 #color of the category
     icon: text.svg #icon of the category
     blocks:
-      - test: #there is a block that we call it test
+      - playcanvasinit: #there is a block that we call it test
           shadows:
             - 1 #it has one shadow(Whenever no other value is present in the input, this value fills it)
           args:
-            a: value
-            b: statement #we have two inputs one of them gives a normal value and the other one gives a program, a statement(as a lambda function)
-          function: test #the function that we call when this block is used. you can see definition of it in the next line
+            a: statement #we have two inputs one of them gives a normal value and the other one gives a program, a statement(as a lambda function)
+          function: init #the function that we call when this block is used. you can see definition of it in the next line
           code: >
-            func test(a, b) {
+            func init(a, b) {
               print(a)
               b!()
             }
