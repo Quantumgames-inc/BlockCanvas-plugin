@@ -1,6 +1,6 @@
 let yml = `
 ---
-ver=0.0.1
+ver=0.0.2
   playcanvas: #name of the category
     color: ff0000 #color of the category
     icon: text.svg #icon of the category
@@ -17,7 +17,7 @@ ver=0.0.1
               b!()
             }
           messages: #The messages we want to appear on the block (we put them before inputs)
-            - test
+            - init
             -
           hasReturn: false #is it a block that returns something (ellipse ones)
           tooltip: test #the tooltip of the block
