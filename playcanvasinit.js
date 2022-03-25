@@ -1,6 +1,6 @@
 let yml = `
 ---
-  Test: #name of the category
+  Playcanvasinit: #name of the category
     color: ff0000 #color of the category
     icon: text.svg #icon of the category
     blocks:
