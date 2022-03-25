@@ -6,8 +6,8 @@ let yml = `
     icon: text.svg
     blocks:
       - initilize:
-          shadows:
-            - 1
+            shadows:
+              - 1
           args:
             a: statement
           function: initilize
