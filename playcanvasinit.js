@@ -17,7 +17,7 @@ ver=0.0.2
               b!()
             }
           messages: #The messages we want to appear on the block (we put them before inputs)
-            - init
+            - playcanvasinit
             -
           hasReturn: false #is it a block that returns something (ellipse ones)
           tooltip: test #the tooltip of the block
